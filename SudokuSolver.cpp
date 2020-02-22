@@ -4,6 +4,8 @@
 #include "SudokuSolver.hpp"
 #include "ui_SudokuSolver.h"
 
+#include <sstream>
+
 #include "Solver.hpp"
 
 SudokuSolver::SudokuSolver(QWidget *parent)
@@ -20,25 +22,28 @@ SudokuSolver::~SudokuSolver()
 
 void SudokuSolver::set_last_digit_only(QTextEdit* textEdit)
 {
+    if (textEdit->alignment() != Qt::AlignCenter)
+    {
+        textEdit->setAlignment(Qt::AlignCenter);
+    }
     bool isOk{false};
     const auto text = textEdit->toPlainText();
     const auto length = text.length();
     text.toInt(&isOk);
     if (length < 1 or (length == 1 and isOk and text.back() != QChar('0')))
     {
+        ui->textEdit->clear();
         return;
     }
     else if (not isOk or text.back() == QChar('0'))
     {
         textEdit->clear();
-        textEdit->setAlignment(Qt::AlignCenter);
     }
     else
     {
         auto cursor = new QTextCursor(textEdit->document());
         cursor->movePosition(QTextCursor::End);
         textEdit->setText(QString(text.back()));
-        textEdit->setAlignment(Qt::AlignCenter);
         textEdit->setTextCursor(*cursor);
     }
 }
@@ -482,7 +487,132 @@ void SudokuSolver::on_pushButton_2_released()
         }
     } catch (std::invalid_argument& e) {
         ui->textEdit->setText(QString("Error: ") + QString(e.what()));
+    } catch (std::runtime_error e) {
+        ui->textEdit->setText(QString("Error: ") + QString(e.what()));
     } catch (std::exception& e) {
         ui->textEdit->setText(QString("Unknown error: ") + QString(e.what()));
+    }
+}
+
+void SudokuSolver::apply_on_board(std::string numbers)
+{
+    if (numbers.size() != 81)
+    {
+        std::stringstream stream;
+        stream << "Solved size is not matching to board " << numbers.size();
+        throw std::runtime_error{stream.str()};
+    }
+    auto i{0};
+    auto frames = ui->sudokuWidget->children();
+    for (auto& frame : frames)
+    {
+        auto texts = frame->children();
+        for (auto& text : texts)
+        {
+            if (auto qtextedit = dynamic_cast<QTextEdit*>(text))
+            {
+                if (numbers[i] != '0')
+                {
+                    qtextedit->setTextColor(QColor(Qt::GlobalColor::darkCyan));
+                    qtextedit->setReadOnly(true);
+                }
+                else
+                {
+                    qtextedit->setReadOnly(false);
+                }
+                qtextedit->setText(QString(numbers[i]));
+                ++i;
+                if (i > 81)
+                {
+                    throw std::runtime_error{"Number of available frames is bigger than 81!"};
+                }
+            }
+        }
+    }
+}
+
+void SudokuSolver::on_pushButton_released()
+{
+    try {
+        auto sudoku = Solver{getNumbers()};
+        sudoku.convert()
+              .solve()
+              .unconvert();
+        apply_on_board(sudoku.result());
+    } catch (std::exception& e) {
+        ui->textEdit->setText(QString("Error: ") + QString(e.what()));
+    }
+}
+
+std::string SudokuSolver::generate_randoms()
+{
+    std::srand ( unsigned ( std::time(0) ) );
+    auto result = std::string(81, '0');
+    int squares[]{0, 1, 2, 3, 4, 5, 6, 7, 8};
+    std::random_shuffle(squares, squares + 9);
+    int fields[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+    std::random_shuffle(fields, fields + 9);
+    char numbres[]{'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    std::random_shuffle(numbres, numbres + 9);
+    for (auto i{0}; i < 9; i++)
+    {
+        result[9*squares[i] + fields[i]] = numbres[i];
+    }
+    return result;
+}
+
+void SudokuSolver::set_diffictult(int visibleNumbers)
+{
+    const char* levels[]{"Easy", "Medium", "Hard", "Very hard"};
+    if (visibleNumbers > 21)
+    {
+        ui->lineEdit->setText(levels[0]);
+    }
+    else if (visibleNumbers > 15)
+    {
+        ui->lineEdit->setText(levels[1]);
+    }
+    else if (visibleNumbers > 10)
+    {
+        ui->lineEdit->setText(levels[2]);
+    }
+    else
+    {
+        ui->lineEdit->setText(levels[3]);
+    }
+}
+
+
+void SudokuSolver::new_board(std::string numbers)
+{
+    std::srand ( unsigned ( std::time(0) ) );
+    int fields[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+        31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+        41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+        51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
+        61, 62, 63, 64, 65, 66, 67, 68, 69, 70,
+        71, 72, 73, 74, 75, 76, 77, 78, 79, 80};
+    std::random_shuffle(fields, fields + 81);
+    const auto toErase{(std::rand() % 24) + 50};
+    for (auto i{0}; i < toErase; i++)
+    {
+        numbers[fields[i]] = '0';
+    }
+    set_diffictult(81 - toErase);
+    apply_on_board(numbers);
+}
+
+void SudokuSolver::on_pushButton_3_released()
+{
+    try {
+        auto sudoku = Solver{generate_randoms()};
+        sudoku.convert()
+              .solve()
+              .unconvert();
+        new_board(sudoku.result());
+    } catch (std::exception& e) {
+        ui->textEdit->setText(QString("Error: ") + QString(e.what()));
     }
 }

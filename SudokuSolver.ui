@@ -152,6 +152,12 @@
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -166,6 +172,9 @@
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -201,6 +210,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -215,6 +230,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -250,6 +268,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -264,6 +288,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -299,6 +326,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -313,6 +346,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -348,6 +384,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -362,6 +404,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -397,6 +442,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -414,6 +465,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -449,6 +503,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -463,6 +523,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -498,6 +561,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -512,6 +581,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -547,6 +619,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -561,6 +639,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -664,6 +745,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -678,6 +765,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -713,6 +803,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -727,6 +823,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -762,6 +861,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -776,6 +881,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -811,6 +919,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -825,6 +939,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -860,6 +977,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -874,6 +997,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -909,6 +1035,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -926,6 +1058,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -961,6 +1096,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -975,6 +1116,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1010,6 +1154,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1024,6 +1174,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1059,6 +1212,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1073,6 +1232,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1176,6 +1338,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1190,6 +1358,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1225,6 +1396,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1239,6 +1416,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1274,6 +1454,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1288,6 +1474,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1323,6 +1512,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1337,6 +1532,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1372,6 +1570,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1386,6 +1590,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1421,6 +1628,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1438,6 +1651,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1473,6 +1689,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1487,6 +1709,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1522,6 +1747,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1536,6 +1767,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1571,6 +1805,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1585,6 +1825,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1688,6 +1931,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1702,6 +1951,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1737,6 +1989,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1751,6 +2009,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1786,6 +2047,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1800,6 +2067,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1835,6 +2105,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1849,6 +2125,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1884,6 +2163,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1898,6 +2183,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1933,6 +2221,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1950,6 +2244,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -1985,6 +2282,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -1999,6 +2302,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2034,6 +2340,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2048,6 +2360,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2083,6 +2398,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2097,6 +2418,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2200,6 +2524,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2214,6 +2544,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2249,6 +2582,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2263,6 +2602,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2298,6 +2640,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2312,6 +2660,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2347,6 +2698,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2361,6 +2718,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2396,6 +2756,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2410,6 +2776,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2445,6 +2814,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2462,6 +2837,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2497,6 +2875,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2511,6 +2895,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2546,6 +2933,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2560,6 +2953,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2595,6 +2991,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2609,6 +3011,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2712,6 +3117,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2726,6 +3137,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2761,6 +3175,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2775,6 +3195,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2810,6 +3233,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2824,6 +3253,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2859,6 +3291,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2873,6 +3311,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2908,6 +3349,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2922,6 +3369,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -2957,6 +3407,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -2974,6 +3430,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3009,6 +3468,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3023,6 +3488,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3058,6 +3526,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3072,6 +3546,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3107,6 +3584,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3121,6 +3604,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3224,6 +3710,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3238,6 +3730,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3273,6 +3768,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3287,6 +3788,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3322,6 +3826,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3336,6 +3846,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3371,6 +3884,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3385,6 +3904,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3420,6 +3942,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3434,6 +3962,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3469,6 +4000,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3486,6 +4023,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3521,6 +4061,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3535,6 +4081,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3570,6 +4119,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3584,6 +4139,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3619,6 +4177,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3633,6 +4197,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3736,6 +4303,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3750,6 +4323,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3785,6 +4361,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3799,6 +4381,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3834,6 +4419,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3848,6 +4439,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3883,6 +4477,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3897,6 +4497,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3932,6 +4535,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3946,6 +4555,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -3981,6 +4593,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -3998,6 +4616,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4033,6 +4654,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4047,6 +4674,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4082,6 +4712,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4096,6 +4732,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4131,6 +4770,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4145,6 +4790,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4248,6 +4896,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4262,6 +4916,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4297,6 +4954,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4311,6 +4974,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4346,6 +5012,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4360,6 +5032,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4395,6 +5070,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4409,6 +5090,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4444,6 +5128,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4458,6 +5148,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4493,6 +5186,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4510,6 +5209,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="sizeAdjustPolicy">
          <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4545,6 +5247,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4559,6 +5267,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4594,6 +5305,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4608,6 +5325,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4643,6 +5363,12 @@ p, li { white-space: pre-wrap; }
           <pointsize>22</pointsize>
          </font>
         </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
         <property name="autoFillBackground">
          <bool>false</bool>
         </property>
@@ -4657,6 +5383,9 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
         </property>
         <property name="markdown">
          <string/>
@@ -4751,8 +5480,8 @@ p, li { white-space: pre-wrap; }
        <property name="geometry">
         <rect>
          <x>60</x>
-         <y>120</y>
-         <width>71</width>
+         <y>160</y>
+         <width>81</width>
          <height>31</height>
         </rect>
        </property>
@@ -4764,7 +5493,7 @@ p, li { white-space: pre-wrap; }
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>50</y>
+         <y>90</y>
          <width>141</width>
          <height>41</height>
         </rect>
@@ -4790,6 +5519,59 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="textInteractionFlags">
         <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Generate</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>31</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Level:</string>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>379</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="maxLength">
+        <number>20</number>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>

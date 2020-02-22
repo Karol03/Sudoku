@@ -6,21 +6,32 @@
 #include <algorithm>
 #include <sstream>
 
-Solver& Solver::convert()
+void Solver::flip_row_square(std::string& numbers)
 {
-    auto groups_per_row = std::vector<std::string>(9);
+    auto group = std::vector<std::string>(9);
     for (auto i{0}; i < 9; i++)
     {
         for (auto j{0}; j < 9; j++)
         {
-            groups_per_row[(i/3)*3+j/3] += m_area[i*9 + j];
+            group[(i/3)*3+j/3] += numbers[i*9 + j];
         }
     }
-    m_area.clear();
-    for (const auto row : groups_per_row)
+    numbers.clear();
+    for (const auto row : group)
     {
-        m_area += row;
+        numbers += row;
     }
+}
+
+Solver& Solver::unconvert()
+{
+    flip_row_square(m_result);
+    return *this;
+}
+
+Solver& Solver::convert()
+{
+    flip_row_square(m_area);
     return *this;
 }
 
@@ -80,12 +91,31 @@ Solver& Solver::solve()
 {
     m_result.clear();
     check_solvable();
-    solve_recursively();
+    try {
+        m_timeout = std::chrono::system_clock::now();
+        solve_recursively();
+    }
+    catch (std::runtime_error e)
+    {
+        throw;
+    }
+    catch (...) {}
     return *this;
+}
+
+bool Solver::is_timeout() const
+{
+    const auto TIMEOUT = std::chrono::seconds(3);
+    const auto end = std::chrono::system_clock::now();
+    return std::chrono::duration_cast<std::chrono::seconds>(end - m_timeout) >= TIMEOUT;
 }
 
 void Solver::solve_recursively()
 {
+    if (is_timeout())
+    {
+        throw std::runtime_error{"The puzzle is not solvable!"};
+    }
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9; j++)
@@ -103,6 +133,7 @@ void Solver::solve_recursively()
         }
     }
     m_result = m_area;
+    throw std::exception{};
 }
 
 std::vector<int> Solver::possibilities(int i, int j)

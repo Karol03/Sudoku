@@ -19,10 +19,14 @@ public:
     ~SudokuSolver();
 
 private:
+    std::string generate_randoms();
+    void set_diffictult(int visibleNumbers);
+    void apply_on_board(std::string numbers);
+    void new_board(std::string numbers);
     void set_last_digit_only(QTextEdit* textEdit);
     std::string getNumbers();
 
-private slots:
+protected slots:
     void on_firstNumberTextEdit_textChanged();
     void on_firstNumberTextEdit_2_textChanged();
     void on_firstNumberTextEdit_3_textChanged();
@@ -114,6 +118,10 @@ private slots:
     void on_firstNumberTextEdit_135_textChanged();
 
     void on_pushButton_2_released();
+
+    void on_pushButton_released();
+
+    void on_pushButton_3_released();
 
 private:
     Ui::SudokuSolver *ui;
